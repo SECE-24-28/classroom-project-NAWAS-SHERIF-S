@@ -7,6 +7,9 @@ import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-execll
 import TrustedbyComponent from "./trusted-by/trusted-by-component";
 import GetinTouchComponent from "./get-in-touch/get-in-touch-component";
 import GetInTouchComponent from "./get-in-touch/get-in-touch-component";
+import OurCoursesComponent from "./our-courses/our-courses-component";
+import ImpactGlanceComponent from "./impact-glance/impact-glance-component";
+import OurPromiseComponent from "./our-promise/our-promise-component";
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
       {/* <SymbolOfExcellenceComponent /> */}
       {/* <PostionComponent /> */}
       {/* <TrustedbyComponent /> */}
-      <GetInTouchComponent/>
+      {/* <GetInTouchComponent/> */}
+      {/* <OurCoursesComponent/> */}
+      {/* <ImpactGlanceComponent/> */}
+     <OurPromiseComponent/>
     </div>
   );
 }
