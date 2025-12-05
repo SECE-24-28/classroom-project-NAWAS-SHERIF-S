@@ -1,105 +1,122 @@
 import styled from "styled-components";
 
 export const OurPromiseStyle = styled.div`
-  padding: 80px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-
-  .heading {
-    text-align: center;
+   .heading{
+    margin-bottom: 30px;
+    }
+    .title{
+    font-weight: 600;
     font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 16px;
-  }
-
-  .subhead {
     text-align: center;
+    font-family: "Work Sans", sans-serif;
+    }
+    .sub-title{
     font-size: 18px;
-    color: #666;
-    max-width: 600px;
-    margin: 0 auto 40px;
-    line-height: 1.6;
-  }
-
-  /* 3-column grid for desktop */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px 40px;
-    justify-content: center;
-  }
-
-  .card {
+    text-align: center;
+    margin-block: 8px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    color: rgb(86, 102, 131);
+    }
+    .flex{
+    display: flex;
+    justify-content: space-evenly;
+    // justify-content: column;
+    justify-items: center;
+    gap: 20px;
+    margin-bottom : 50px;
+    }
+    .flex2{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: column;
+    justify-items: center;
+    gap : 20px;
+    }
+    .head{
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+    
+    }
+    .details{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(86, 102, 131);
+    line-height: 1.5;
+    }
+    .child1{
     display: flex;
     flex-direction: column;
-  }
-
-  /* Top colored line */
-  .line {
-    height: 4px;
-    width: 60px;
-    margin-bottom: 24px;
-    border-radius: 2px;
-  }
-
-  .line1 { background: #4db6ac; }
-  .line2 { background: #fbc02d; }
-  .line3 { background: #00acc1; }
-  .line4 { background: #9575cd; }
-  .line5 { background: #e53935; }
-  .line6 { background: #43a047; }
-
-  .icon {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 16px;
-  }
-
-  h3 {
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 16px;
-    color: #1f2937;
-  }
-
-  p {
-    font-size: 16px;
-    line-height: 1.7;
-    color: #6b7280;
-    margin: 0;
-  }
-
-  /* Tablet: 2 columns */
-  @media (max-width: 900px) {
-    .grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 40px 30px;
+    width: 30%;
+    padding: 20px;
+    border-top: 4px solid rgb(68, 178, 179);
+    max-width: 280px;
     }
-  }
-
-  /* Mobile: 1 column */
-  @media (max-width: 600px) {
-    padding: 60px 20px;
-    
-    .heading {
-      font-size: 36px;
+    .child2{
+    width: 30%;
+    padding: 20px;
+    border-top: 5px solid rgb(239, 175, 75);
+    max-width: 280px;
     }
-    
-    .subhead {
-      font-size: 16px;
+    .child3{
+    width: 30%;
+    padding: 20px;
+    border-top: 5px solid rgb(0, 189, 235);
+    max-width: 280px;
     }
-    
-    .grid {
-      grid-template-columns: 1fr;
-      gap: 40px;
+    .child4{
+    width: 30%;
+    padding: 20px;
+    border-top: 5px solid rgb(134, 74, 249);
+    max-width: 280px;
     }
-    
-    h3 {
-      font-size: 20px;
+    .child5{
+    width: 30%;
+    padding: 20px;
+    border-top: 5px solid rgb(252, 41, 71);
+    max-width: 280px;
     }
-    
-    p {
-      font-size: 15px;
+    .child6{
+    width: 30%;
+    padding: 20px;
+    border-top: 5px solid rgb(50, 199, 102);
+    max-width: 280px;
     }
-  }
+    .sameline{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
+    .FontAwesomeIcon{
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+    }
+    .icon1{
+    font-size: 40px;
+    color:rgb(68, 178, 179);
+    }
+    .icon2{
+    font-size: 40px;
+    color:rgb(239, 175, 75);
+    }
+    .icon3{
+    font-size: 40px;
+    color:rgb(0, 189, 235);
+    }
+    .icon4{
+    font-size: 40px;
+    color:rgb(134, 74, 249);
+    }
+    .icon5{
+    font-size: 40px;
+    color:rgb(252, 41, 71);
+    }
+    .icon6{
+    font-size: 40px;
+    color:rgb(50, 199, 102);
+    }
 `;
